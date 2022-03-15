@@ -20,7 +20,7 @@ steps:
 
 - task: Maven@3
   inputs:
-    mavenPomFile: 'pom.xml'
+    mavenPomFile: 'https://github.com/MicrosoftDocs/pipelines-java'
     publishJUnitResults: true
     testResultsFiles: 'https://github.com/MicrosoftDocs/pipelines-java'
     javaHomeOption: 'JDKVersion'
